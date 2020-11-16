@@ -10,6 +10,7 @@
     "yarn": "1.22.5"
   },
   "scripts": {
-    "start": "cd app && yarn install && yarn build && cd .. && node index.js"
+    "start": "node index.js",
+    "postinstall": "cd app && yarn install && yarn build"
   }
 }

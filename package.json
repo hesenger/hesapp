@@ -11,6 +11,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postinstall": "cd app && yarn install && yarn build"
+    "postinstall": "cd ui && yarn install && yarn build"
   }
 }

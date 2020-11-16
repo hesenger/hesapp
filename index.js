@@ -3,7 +3,7 @@ const app = express()
 const port = 80
 
 app.get('/', (req, res) => {
-  res.send('Hello World! ')
+  res.send('server time: ' + new Date().toLocaleDateString())
 })
 
 app.listen(port, () => {
